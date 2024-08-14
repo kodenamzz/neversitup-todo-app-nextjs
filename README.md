@@ -7,54 +7,54 @@ A Next.js Todo App for efficient task management with seamless adding, editing, 
 ## Project Structure
 
 ├── app
-│   ├── login
-│   │   └── page.tsx
-│   ├── register
-│   │   └── page.tsx
-│   ├── table
-│   │   └── page.tsx
-│   ├── todo
-│   |   └── page.tsx
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── page.tsx
-│   └── layout.tsx
+│ ├── login
+│ │ └── page.tsx
+│ ├── register
+│ │ └── page.tsx
+│ ├── table
+│ │ └── page.tsx
+│ ├── todo
+│ | └── page.tsx
+│ ├── favicon.ico
+│ ├── globals.css
+│ ├── page.tsx
+│ └── layout.tsx
 ├── components
-│   ├── cards
-│   │   ├── TodoCard.tsx
-│   │   └── TodoCardShow.tsx
-│   ├── forms
-│   │   ├── CreateTodo.tsx
-│   │   ├── EditTodo.tsx
-│   │   └── UserAuthForm.tsx
-│   ├── shared
-│   │   ├── ConfirmDialog.tsx
-│   │   ├── Metric.tsx
-│   │   └── NoResult.tsx
-│   └── ui
-│       ├── alert-dialog.tsx
-│       ├── button.tsx
-│       ├── card.tsx
-│       ├── dialog.tsx
-│       ├── form.tsx
-│       ├── input.tsx
-│       ├── label.tsx
-│       ├── sonner.tsx
-│       └── table.tsx
+│ ├── cards
+│ │ ├── TodoCard.tsx
+│ │ └── TodoCardShow.tsx
+│ ├── forms
+│ │ ├── CreateTodo.tsx
+│ │ ├── EditTodo.tsx
+│ │ └── UserAuthForm.tsx
+│ ├── shared
+│ │ ├── ConfirmDialog.tsx
+│ │ ├── Metric.tsx
+│ │ └── NoResult.tsx
+│ └── ui
+│ ├── alert-dialog.tsx
+│ ├── button.tsx
+│ ├── card.tsx
+│ ├── dialog.tsx
+│ ├── form.tsx
+│ ├── input.tsx
+│ ├── label.tsx
+│ ├── sonner.tsx
+│ └── table.tsx
 ├── context
-│   └── ShowTodoProvider.tsx
+│ └── ShowTodoProvider.tsx
 ├── lib
-│   ├── actions
-│   │   ├── auth.action.ts
-│   │   ├── get-token.ts
-│   │   └── todo.action.ts
-│   └── utils.ts
+│ ├── actions
+│ │ ├── auth.action.ts
+│ │ ├── get-token.ts
+│ │ └── todo.action.ts
+│ └── utils.ts
 ├── public
-│   ├── light-illustration.png
-│   ├── next.svg
-│   └── vercel.svg
+│ ├── light-illustration.png
+│ ├── next.svg
+│ └── vercel.svg
 ├── types
-|   └── index.d.ts
+| └── index.d.ts
 ├── .env.example
 ├── .eslintrc.json
 ├── .gitignore
@@ -68,8 +68,6 @@ A Next.js Todo App for efficient task management with seamless adding, editing, 
 ├── README.md
 ├── tailwind.config.ts
 └── tsconfig.json
-
-
 
 ## Getting Started
 
@@ -87,6 +85,7 @@ $ npm install
 ```
 
 3. set up .env.local (copy from .env.example)
+
 ```bash
 API_ENDPOINT= //neversitup api endpoint
 ```
