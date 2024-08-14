@@ -18,6 +18,7 @@ import {
 import { createUser, loginUser } from "@/lib/actions/auth.action";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
+import Link from "next/link";
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
   formType: "register" | "login";
@@ -115,6 +116,17 @@ const UserAuthForm = ({ className, formType, ...props }: Props) => {
                 ? "Register"
                 : "Login"}
             </Button>
+
+            <Link href={formType === "register" ? "/login" : "/register"}>
+              <Button
+                disabled={form.formState.isSubmitting}
+                className="w-full mt-2"
+                variant="outline"
+                type="submit"
+              >
+                {formType === "register" ? "Login" : "Register"}
+              </Button>
+            </Link>
           </div>
         </form>
       </Form>

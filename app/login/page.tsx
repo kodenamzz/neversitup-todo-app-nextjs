@@ -11,7 +11,7 @@ const Login = () => {
               Login your account
             </h1>
             <p className="text-sm text-muted-foreground">
-              Enter your email below to create your account
+              Enter your username and password below to login your account
             </p>
           </div>
           <UserAuthForm formType="login" />
