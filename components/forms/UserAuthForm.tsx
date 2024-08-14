@@ -29,7 +29,7 @@ const formSchema = z.object({
     message: "Username must be at least 3 characters.",
   }),
   password: z.string().min(4, {
-    message: "Username must be at least 3 characters.",
+    message: "Password must be at least 4 characters.",
   }),
 });
 
