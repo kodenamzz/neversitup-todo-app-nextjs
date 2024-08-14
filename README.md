@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 A Next.js Todo App for efficient task management with seamless adding, editing, and deleting of tasks.
 
 ## Project Structure
-
+```bash
 ├── app
 │ ├── login
 │ │ └── page.tsx
@@ -14,7 +14,7 @@ A Next.js Todo App for efficient task management with seamless adding, editing, 
 │ ├── table
 │ │ └── page.tsx
 │ ├── todo
-│ | └── page.tsx
+│ │ └── page.tsx
 │ ├── favicon.ico
 │ ├── globals.css
 │ ├── page.tsx
@@ -54,7 +54,7 @@ A Next.js Todo App for efficient task management with seamless adding, editing, 
 │ ├── next.svg
 │ └── vercel.svg
 ├── types
-| └── index.d.ts
+│ └── index.d.ts
 ├── .env.example
 ├── .eslintrc.json
 ├── .gitignore
@@ -68,6 +68,7 @@ A Next.js Todo App for efficient task management with seamless adding, editing, 
 ├── README.md
 ├── tailwind.config.ts
 └── tsconfig.json
+```
 
 ## Getting Started
 
@@ -101,7 +102,6 @@ pnpm dev
 # or
 bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
