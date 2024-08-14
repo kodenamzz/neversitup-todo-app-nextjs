@@ -5,56 +5,57 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 A Next.js Todo App for efficient task management with seamless adding, editing, and deleting of tasks.
 
 ## Project Structure
+
 ```bash
 ├── app
-│ ├── login
-│ │ └── page.tsx
-│ ├── register
-│ │ └── page.tsx
-│ ├── table
-│ │ └── page.tsx
-│ ├── todo
-│ │ └── page.tsx
-│ ├── favicon.ico
-│ ├── globals.css
-│ ├── page.tsx
-│ └── layout.tsx
+│   ├── login
+│   │   └── page.tsx
+│   ├── register
+│   │   └── page.tsx
+│   ├── table
+│   │   └── page.tsx
+│   ├── todo
+│   │   └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── page.tsx
+│   └── layout.tsx
 ├── components
-│ ├── cards
-│ │ ├── TodoCard.tsx
-│ │ └── TodoCardShow.tsx
-│ ├── forms
-│ │ ├── CreateTodo.tsx
-│ │ ├── EditTodo.tsx
-│ │ └── UserAuthForm.tsx
-│ ├── shared
-│ │ ├── ConfirmDialog.tsx
-│ │ ├── Metric.tsx
-│ │ └── NoResult.tsx
-│ └── ui
-│ ├── alert-dialog.tsx
-│ ├── button.tsx
-│ ├── card.tsx
-│ ├── dialog.tsx
-│ ├── form.tsx
-│ ├── input.tsx
-│ ├── label.tsx
-│ ├── sonner.tsx
-│ └── table.tsx
+│   ├── cards
+│   │   ├── TodoCard.tsx
+│   │   └── TodoCardShow.tsx
+│   ├── forms
+│   │   ├── CreateTodo.tsx
+│   │   ├── EditTodo.tsx
+│   │   └── UserAuthForm.tsx
+│   ├── shared
+│   │   ├── ConfirmDialog.tsx
+│   │   ├── Metric.tsx
+│   │   └── NoResult.tsx
+│   └── ui
+│       ├── alert-dialog.tsx
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── dialog.tsx
+│       ├── form.tsx
+│       ├── input.tsx
+│       ├── label.tsx
+│       ├── sonner.tsx
+│       └── table.tsx
 ├── context
-│ └── ShowTodoProvider.tsx
+│   └── ShowTodoProvider.tsx
 ├── lib
-│ ├── actions
-│ │ ├── auth.action.ts
-│ │ ├── get-token.ts
-│ │ └── todo.action.ts
-│ └── utils.ts
+│   ├── actions
+│   │   ├── auth.action.ts
+│   │   ├── get-token.ts
+│   │   └── todo.action.ts
+│   └── utils.ts
 ├── public
-│ ├── light-illustration.png
-│ ├── next.svg
-│ └── vercel.svg
+│   ├── light-illustration.png
+│   ├── next.svg
+│   └── vercel.svg
 ├── types
-│ └── index.d.ts
+│   └── index.d.ts
 ├── .env.example
 ├── .eslintrc.json
 ├── .gitignore
@@ -75,7 +76,7 @@ A Next.js Todo App for efficient task management with seamless adding, editing, 
 1. Clone the repository:
 
 ```bash
-   $ git clone https://github.com/kodenamzz/neversitup-todo-app-nextj.git
+   $ git clone https://github.com/kodenamzz/neversitup-todo-app-nextjs.git
    cd neversitup-todo-app-nextjs
 ```
 
@@ -102,6 +103,7 @@ pnpm dev
 # or
 bun dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -117,7 +119,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-
 ### Lighthouse report
-<img src="https://i.ibb.co/gmKPVVt/Screenshot-2024-08-14-162939.png" alt="Project Banner">
 
+<img src="https://i.ibb.co/gmKPVVt/Screenshot-2024-08-14-162939.png" alt="Project Banner">
