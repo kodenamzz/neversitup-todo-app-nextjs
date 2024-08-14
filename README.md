@@ -1,8 +1,97 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Neversitup Todo app Nextjs Project
+
+A Next.js Todo App for efficient task management with seamless adding, editing, and deleting of tasks.
+
+## Project Structure
+
+├── app
+│   ├── login
+│   │   └── page.tsx
+│   ├── register
+│   │   └── page.tsx
+│   ├── table
+│   │   └── page.tsx
+│   ├── todo
+│   |   └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── page.tsx
+│   └── layout.tsx
+├── components
+│   ├── cards
+│   │   ├── TodoCard.tsx
+│   │   └── TodoCardShow.tsx
+│   ├── forms
+│   │   ├── CreateTodo.tsx
+│   │   ├── EditTodo.tsx
+│   │   └── UserAuthForm.tsx
+│   ├── shared
+│   │   ├── ConfirmDialog.tsx
+│   │   ├── Metric.tsx
+│   │   └── NoResult.tsx
+│   └── ui
+│       ├── alert-dialog.tsx
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── dialog.tsx
+│       ├── form.tsx
+│       ├── input.tsx
+│       ├── label.tsx
+│       ├── sonner.tsx
+│       └── table.tsx
+├── context
+│   └── ShowTodoProvider.tsx
+├── lib
+│   ├── actions
+│   │   ├── auth.action.ts
+│   │   ├── get-token.ts
+│   │   └── todo.action.ts
+│   └── utils.ts
+├── public
+│   ├── light-illustration.png
+│   ├── next.svg
+│   └── vercel.svg
+├── types
+|   └── index.d.ts
+├── .env.example
+├── .eslintrc.json
+├── .gitignore
+├── components.json
+├── middleware.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
+
+
+
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+   $ git clone https://github.com/kodenamzz/neversitup-todo-app-nextj.git
+   cd neversitup-todo-app-nextjs
+```
+
+2. Install dependencies:
+
+```bash
+$ npm install
+```
+
+3. set up .env.local (copy from .env.example)
+```bash
+API_ENDPOINT= //neversitup api endpoint
+```
+
+4. run the development server:
 
 ```bash
 npm run dev
