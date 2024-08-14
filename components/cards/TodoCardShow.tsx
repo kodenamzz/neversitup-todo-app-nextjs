@@ -5,16 +5,6 @@ import { ITodo } from "@/types";
 import { useShowTodo } from "@/context/ShowTodoProvider";
 import { Trash2 } from "lucide-react";
 import { Button } from "../ui/button";
-import {
-  AlertDialog,
-  AlertDialogTrigger,
-  AlertDialogContent,
-  AlertDialogTitle,
-  AlertDialogDescription,
-  AlertDialogCancel,
-  AlertDialogAction,
-} from "@radix-ui/react-alert-dialog";
-import { AlertDialogHeader, AlertDialogFooter } from "../ui/alert-dialog";
 import { useState } from "react";
 import ConfirmDialog from "../shared/ConfirmDialog";
 import { deleteTodo } from "@/lib/actions/todo.action";
@@ -40,7 +30,7 @@ const TodoCardShow = ({ children, todo }: Props) => {
     setIsDeleting(true);
     try {
       await deleteTodo(todo.id);
-      toast.success("Todo has been created");
+      toast.success("Todo has been deleted");
       setShowConfirmDialog(false);
       setIsDeleting(false);
     } catch (error) {
